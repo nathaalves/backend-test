@@ -4,6 +4,9 @@ export const allowedOrigins = [
   `http://http-nodejs-production-24da.up.railway.app:${
     process.env.PORT || 5000
   }`,
+  `https://http-nodejs-production-24da.up.railway.app:${
+    process.env.PORT || 5000
+  }`,
   'http://127.0.0.1:5173',
   'http://localhost:5173',
   'https://my-finance-frontend.vercel.app',
