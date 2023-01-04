@@ -8,6 +8,7 @@ export const allowedOrigins = [
     process.env.PORT || 5000
   }`,
   `http://containers-us-west-126.railway.app:${process.env.PORT || 5000}`,
+  `https://containers-us-west-126.railway.app:${process.env.PORT || 5000}`,
   'http://127.0.0.1:5173',
   'http://localhost:5173',
   'https://my-finance-frontend.vercel.app',
