@@ -14,7 +14,6 @@ export const allowedOrigins = [
   'https://my-finance-frontend.vercel.app',
   'https://my-finance-frontend-nathaalves.vercel.app',
   'https://my-finance-frontend-git-main-nathaalves.vercel.app',
-  'undefined',
 ];
 
 export const options = {

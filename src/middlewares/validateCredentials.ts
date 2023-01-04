@@ -7,8 +7,11 @@ export const validateCredentials = (
   next: NextFunction
 ) => {
   const origin = req.headers.origin;
+  console.log(origin);
 
   if (!origin) {
+    res.header('Access-Control-Allow-Origin', `${origin}`);
+    res.header('Access-Control-Allow-Credentials', 'true');
     return next();
   }
 
