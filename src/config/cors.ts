@@ -9,6 +9,8 @@ export const allowedOrigins = [
   }`,
   `http://containers-us-west-126.railway.app:${process.env.PORT || 5000}`,
   `https://containers-us-west-126.railway.app:${process.env.PORT || 5000}`,
+  'http://127.0.0.1:5000',
+  'http://localhost:5000',
   'http://127.0.0.1:5173',
   'http://localhost:5173',
   'https://my-finance-frontend.vercel.app',
@@ -17,7 +19,7 @@ export const allowedOrigins = [
 ];
 
 export const options = {
-  origin: '*',
+  origin: allowedOrigins,
   optionsSuccessStatus: 200,
   credential: true,
 };
