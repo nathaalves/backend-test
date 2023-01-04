@@ -17,7 +17,7 @@ export const allowedOrigins = [
 ];
 
 export const options = {
-  origin: allowedOrigins,
+  origin: '*',
   optionsSuccessStatus: 200,
   credential: true,
 };
